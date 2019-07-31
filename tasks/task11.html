@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>task11</title>
+</head>
+<body>
+	<h1>Task 11</h1>
+</body>
+<script>
+	var a = prompt('Введите число a');
+	var b = prompt('Введите число b'); 
+	var summ = 'Сумма' + ' = ' + (+a + +b);
+	var diff = 'Разность' + ' = ' + (+a - +b);
+	var composition = 'Произведение' + ' = ' + a * b;
+	var division = 'Частное модулей' + ' = ' + (Math.abs(a)) / (Math.abs(b));
+
+	if (a > 0 && b >0) {
+		alert ( summ + '\n' + diff + '\n'+ composition + '\n' + division + '\n');
+	}
+	else {
+		alert('Ошибка');
+	}
+</script>
+</html>
