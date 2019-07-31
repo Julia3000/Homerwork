@@ -5,23 +5,23 @@
 </head>
 <body>
 	<h1>Task 10</h1>
-</body>
-<script>
-	var a = prompt('Введите число a');
-	var b = prompt('Введите число b'); 
-	var summ = 'Сумма' + ' = ' + (+a + +b);
-	var diff = 'Разность' + ' = ' + (+a - +b);
-	var composition = 'Произведение' + ' = ' + a * b;
-	var division = 'Частное кв.' + ' = ' + (a ** 2) / (b ** 2)
+	<script>
+		var a = Number(prompt('Введите число a'));
+		var b = Number(prompt('Введите число b')); 
+		var summ = 'Сумма' + ' = ' + (a + b);
+		var diff = 'Разность' + ' = ' + (a - b);
+		var composition = 'Произведение' + ' = ' + a * b;
+		var division = 'Частное кв.' + ' = ' + (a ** 2) / (b ** 2)
 
-	if (a > 0 && b >0) {
-		alert ( summ + '\n'+
-				diff + '\n'+
-				composition + '\n'+
-				division + '\n');
-	}
-	else {
-		alert('Ошибка');
-	}
-</script>
+		if (a > 0 && b >0) {
+			alert ( summ + '\n'+
+					diff + '\n'+
+					composition + '\n'+
+					division + '\n');
+		}
+		else {
+			alert('Ошибка');
+		}
+	</script>
+</body>
 </html>
