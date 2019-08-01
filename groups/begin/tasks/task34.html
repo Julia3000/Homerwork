@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>task34</title>
+</head>
+<body>
+	<h1>Task 34</h1>
+	<script>
+		var x = prompt('Введите вес шоколадных конфет x');
+		var a = prompt('Введите цену шоколадных конфет a');
+		var y = prompt('Введите вес "ирисок"');
+		var b = prompt('Введите цену "ирисок"');
+		var weight1 = a / x;
+		var weight = 'Цена за 1кг шоколадных конфет = ' + weight1 + 'руб.';
+		var mass1 = b / y;
+		var mass = 'Цена за 1кг "ирисок" = ' + mass1 + 'руб.';
+		var difference = weight1 / mass1;
+		var difference1 = 'В ' + difference + 'раз' + 'Шоколадные конфеты дороже ирисок';
+		var difference1 = 'В ' + difference + 'раз' + 'Шоколадные конфеты дешевле ирисок';
+		if (weight1 > mass1) {
+			alert(weight + '\n' + mass + '\n' + difference1 + '\n');
+		} 
+		else {
+			alert(weight + '\n' + mass + '\n' + difference2 + '\n');
+		}
+	</script>
+</body>
+</html

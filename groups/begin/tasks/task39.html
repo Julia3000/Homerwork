@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>task39</title>
+</head>
+<body>
+	<h1>Task 39</h1>
+	<script>
+		var a = prompt('Введите значение a');
+		var b = prompt('Введите значение b');
+		var d = prompt('Введите значение с');
+		var discriminant = b ** 2 - 4 * a * d;
+		
+		if (a != 0 && discriminant > 0) {
+			alert('Подсчет корней квадратного уровнения');
+			
+			var x1 = -b + (Math.sqrt(discriminant)) / 2 * a;
+			var x2 = -b - (Math.sqrt(discriminant)) / 2 * a;
+
+			if (x1 > x2) {
+				alert('Меньший корень x2 = ' + x2 + '\n' + 'Больший корень x1 = ' + x1);
+			}
+			else {
+				alert('Меньший корень x1 = ' + x1 + '\n' + 'Больший корень x2 = ' + x2);
+			}
+		}
+		else {
+			alert('Корней нет');
+		}
+		
+	</script>
+</body>
+</html
