@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>task21</title>
+</head>
+<body>
+	<h1>Task 21</h1>
+	<script>
+		var x1 = prompt('Вершина x1');
+		var y1 = prompt('Вершина y1');
+		var x2 = prompt('Вершина x2');
+		var y2 = prompt('Вершина y2');
+		var x3 = prompt('Вершина x3');
+		var y3 = prompt('Вершина y3');
+		var a = Math.sqrt(((+x2 - +x1) ** 2) + ((+y2 - +y1) ** 2));
+		var b = Math.sqrt(((+x3 - +x2) ** 2) + ((+y3 - +y2) ** 2));
+		var c = Math.sqrt(((+x3 - +x1) ** 2) + ((+y3 - +y1) ** 2));
+		var p = (+a + +b + +c) / 2;
+		var perimetr1 = (+a + +b) + +c;
+		var perimetr = 'P = ' + perimetr1;
+		var area1 = Math.sqrt(p * (p - +a) * (p - +b) * (p - + c));
+		var area = 'S = ' + area1;
+		alert(perimetr + '\n' + area + '\n');
+	</script>
+</body>
+</html>
