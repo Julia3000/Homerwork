@@ -6,15 +6,14 @@
 <body>
 	<h1>Task 33</h1>
 	<script>
-		var x = prompt('Введите вес конфет x');
-		var a = prompt('Введите цену конфет a');
-		var weight1 = a / x;
-		var weight = 'Цена за 1кг конфет = ' + weight1 + 'руб.';
-		alert(weight); 
-		var y1 = prompt('Какой вес этих конфет посчитать y');
-		var y = 'Цена = ' + y1 * a+ 'руб.';
-		//TODO переобозвать все переменные по правильному
-		alert( y); 
+		var weight = prompt('Введите вес конфет X');
+		var price = prompt('Введите цену конфет A');
+		var cost = price / weight;
+		cost = 'Цена за 1кг конфет = ' + cost + 'руб.';
+		alert(cost); 
+		var weightCandy = prompt('Какой вес этих конфет посчитать y');
+		weightCandy = 'Цена за ' + weightCandy + ' кг = ' + weightCandy * price + ' руб.';
+		alert(weightCandy); 
 	</script>
 </body>
 </html

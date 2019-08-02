@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>task40</title>
+</head>
+<body>
+	<h1>Task 40</h1>
+	<script>
+		var valueA1 = prompt('Введите значение A1');
+		var valueB1 = prompt('Введите значение B1');
+		var valueC1 = prompt('Введите значение C1');
+		var valueA2 = prompt('Введите значение A2');
+		var valueB2 = prompt('Введите значение B2');
+		var valueC2 = prompt('Введите значение C2');
+		var valueD = valueA1 * valueB2 - valueA2 * valueB1;
+		if (valueD != 0) {
+			var valueX = (valueC1 * valueB2 - valueC2 * valueB1) / valueD;
+			var valueY = (valueA1 * valueC2 - valueA2 * valueC1) / valueD;
+			var equation = valueA1 * valueX + valueB1 * valueY;
+			var equation_ = valueA2 * valueX + valueB2 * valueY;
+			valueC1 = equation;
+			valueC2 = equation_;
+			if (equation == equation_) {
+				alert('Система линейных уровнений' + '\n' + equation + '\n' + equation_);
+			}
+		}
+		else {
+			alert('Нет решений');
+		}
+	</script>
+</body>
+</html>
