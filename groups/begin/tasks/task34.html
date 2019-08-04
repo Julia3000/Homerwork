@@ -6,32 +6,29 @@
 <body>
 	<h1>Task 34</h1>
 	<script>
-		//TODO пишется наоборот: сначала чего, а потом уже что - например,
-		// candyMass
-		var massCandy = prompt('Введите вес шоколадных конфет x');
-		var priceCandy = prompt('Введите цену шоколадных конфет a');
-		var massToffee = prompt('Введите вес "ирисок"');
-		var priceToffee = prompt('Введите цену "ирисок"');
-		var costCandy = priceCandy / massCandy;
-		//TODO нижнее подчеркивание снизу никогда не ставится!!!
-		var costCandy_ = 'Цена за 1кг шоколадных конфет = ' + costCandy + ' руб.';
-		var costToffee = priceToffee / massToffee;
-		var costToffee_ = 'Цена за 1кг "ирисок" = ' + costToffee + ' руб.';
-		var value = costCandy / costToffee;
+		var candyMass = prompt('Введите вес шоколадных конфет x');
+		var candyPrice = prompt('Введите цену шоколадных конфет a');
+		var toffeeMass = prompt('Введите вес "ирисок"');
+		var toffeePrice = prompt('Введите цену "ирисок"');
+		var candyCost = priceCandy / massCandy;
+		var candyCost1 = 'Цена за 1кг шоколадных конфет = ' + costCandy + ' руб.';
+		var toffeeCost = priceToffee / massToffee;
+		var toffeeCost1= 'Цена за 1кг "ирисок" = ' + costToffee + ' руб.';
+		var value = candyCost / toffeeCost;
 		var value1 = 'В ' + value + ' раз' + ' Шоколадные конфеты дороже "ирисок"';
 		var value2 = 'В ' + value + ' раз' + ' Шоколадные конфеты дешевле "ирисок"';
 
-		if (costCandy != costToffee) {	
+		if (candyCost != toffeeCost) {	
 				
-			if (costCandy > costToffee) {
-				alert(costCandy_ + '\n' + costToffee_ + '\n' + value1 + '\n');
+			if (candyCost > toffeeCost) {
+				alert(candyCost1 + '\n' + toffeeCost1 + '\n' + value1 + '\n');
 			} 
 			else {
-				alert(costCandy_ + '\n' + costToffee_ + '\n' + value2 + '\n');
+				alert(candyCost1 + '\n' + toffeeCost1 + '\n' + value2 + '\n');
 			}			
 		}
 		else{
-			alert('У шоколадных конфет и "ирисок" одинаковая цена = '+ costCandy +  ' руб.' + '\n');	
+			alert('У шоколадных конфет и "ирисок" одинаковая цена = '+ candyCost +  ' руб.' + '\n');	
 		}
 	
 	</script>

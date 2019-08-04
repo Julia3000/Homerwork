@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>task37</title>
+</head>
+<body>
+	<h1>Task 37</h1>
+	<script>
+		var boatSpeed = prompt('Введите скорость лодки');
+		var riverSpeed = prompt('Введите скорость реки');
+		if (riverSpeed < boatSpeed) {
+			var timeWithTheSteam = prompt('Введите время по течению');
+			var timeAgainstTheStream = prompt('Введите время против течения');
+			var speedWithTheSteam = +boatSpeed + +riverSpeed;
+			var speedAgainstTheStream = +boatSpeed - +riverSpeed;
+			var wayWithTheSteam = timeWithTheSteam * speedWithTheSteam 
+			var wayAgainstTheStream = timeAgainstTheStream * speedAgainstTheStream;
+			var commonWay = +wayWithTheSteam + +wayAgainstTheStream;
+			alert(commonWay + ' км - общий путь, проделанный лодкой');
+		}
+		else {
+			alert('Решение не возможно');
+		}
+	</script>
+</body>
+</html

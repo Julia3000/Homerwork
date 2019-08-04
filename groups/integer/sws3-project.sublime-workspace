@@ -1,0 +1,456 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"e",
+				"equation_"
+			],
+			[
+				"va",
+				"valueB1"
+			],
+			[
+				"co",
+				"costToffee"
+			],
+			[
+				"ma",
+				"massCandy"
+			],
+			[
+				"p",
+				"priceCandy"
+			],
+			[
+				"m",
+				"mass"
+			],
+			[
+				"w",
+				"weightCandy"
+			],
+			[
+				"a",
+				"alert"
+			],
+			[
+				"tim",
+				"time"
+			],
+			[
+				"d",
+				"difference"
+			],
+			[
+				"te",
+				"temperature"
+			],
+			[
+				"v",
+				"value1"
+			],
+			[
+				"per",
+				"perimetr"
+			],
+			[
+				"area",
+				"area1"
+			],
+			[
+				"bc",
+				"bc1"
+			],
+			[
+				"h",
+				"h1\tTag"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"CO",
+				"color\tproperty"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"marg",
+				"margin-top\tproperty"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"l",
+				"label\tTag"
+			],
+			[
+				"j",
+				"javascript"
+			],
+			[
+				"u",
+				"url()\tbackground-image"
+			],
+			[
+				"bor",
+				"border-radius\tproperty"
+			],
+			[
+				"bagroun",
+				"background-size\tproperty"
+			],
+			[
+				"back",
+				"background-image\tproperty"
+			],
+			[
+				"W",
+				"width\tproperty"
+			],
+			[
+				"r",
+				"right\tproperty"
+			],
+			[
+				"to",
+				"top\tproperty"
+			],
+			[
+				"fo",
+				"font-size\tproperty"
+			],
+			[
+				"f",
+				"float\tproperty"
+			],
+			[
+				"op",
+				"opacity\tproperty"
+			],
+			[
+				"background",
+				"background-color\tproperty"
+			],
+			[
+				"text",
+				"text-decoration\tproperty"
+			],
+			[
+				"list",
+				"list-style\tproperty"
+			],
+			[
+				"i",
+				"inline-block\tdisplay"
+			],
+			[
+				"ba",
+				"background-position\tproperty"
+			],
+			[
+				"c",
+				"cover\tbackground-size"
+			],
+			[
+				"box",
+				"box-shadow\tproperty"
+			],
+			[
+				"bag",
+				"background-color\tproperty"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"me",
+				"meta\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/JuliaVx/Desktop/Sws3/src/main/resources/static/index.html",
+			"settings":
+			{
+				"buffer_size": 172,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/JuliaVx/Desktop/Sws3/src/main/resources/static",
+		"/C/Users/JuliaVx/Desktop/Sws3/src/main/resources/static/css",
+		"/C/Users/JuliaVx/Desktop/Sws3/src/main/resources/static/js"
+	],
+	"file_history":
+	[
+		"/C/Users/JuliaVx/Desktop/Tasks/groups/integer/integer.html",
+		"/C/Users/JuliaVx/Desktop/Tasks/groups/begin/tasks/task40.html",
+		"/C/Users/JuliaVx/Desktop/Tasks/groups/begin/tasks/task38.html",
+		"/C/Users/JuliaVx/Desktop/Tasks/groups/begin/tasks/task34.html",
+		"/C/Users/JuliaVx/Desktop/Tasks/groups/begin/tasks/task24.html",
+		"/C/Users/JuliaVx/Desktop/Tasks/groups/begin/tasks/task23.html",
+		"/C/Users/JuliaVx/Desktop/Tasks/groups/begin/tasks/task22.html",
+		"/C/Users/JuliaVx/Desktop/Tasks/index.html",
+		"/C/Users/JuliaVx/Desktop/Tasks/groups/begin/tasks/task11.html",
+		"/C/Users/JuliaVx/Desktop/Tasks/groups/begin/tasks/task33.html",
+		"/C/Users/JuliaVx/Desktop/Tasks/groups/begin/tasks/task19.html",
+		"/C/Users/JuliaVx/Desktop/Tasks/groups/begin/tasks/task39.html",
+		"/C/Users/JuliaVx/Desktop/Tasks/groups/begin/tasks/task37.html",
+		"/C/Users/JuliaVx/Desktop/Tasks/groups/begin/tasks/task36.html",
+		"/C/Users/JuliaVx/Desktop/Tasks/groups/begin/tasks/task32.html",
+		"/C/Users/JuliaVx/Desktop/Tasks/groups/begin/tasks/task31.html",
+		"/C/Users/JuliaVx/Desktop/Tasks/groups/begin/tasks/task30.html",
+		"/C/Users/JuliaVx/Desktop/Tasks/groups/begin/tasks/task29.html",
+		"/C/Users/JuliaVx/Desktop/Tasks/groups/begin/tasks/task28.html",
+		"/C/Users/JuliaVx/Desktop/Tasks/groups/begin/tasks/task27.html",
+		"/C/Users/JuliaVx/Desktop/Tasks/groups/begin/tasks/task26.html",
+		"/C/Users/JuliaVx/Desktop/Tasks/groups/begin/tasks/task25.html",
+		"/C/Users/JuliaVx/Desktop/Tasks/groups/begin/tasks/task21.html",
+		"/C/Users/JuliaVx/Desktop/Tasks/groups/begin/tasks/task20.html",
+		"/C/Users/JuliaVx/Desktop/Tasks/groups/begin/tasks/task15.html",
+		"/C/Users/JuliaVx/Desktop/Tasks/groups/begin/tasks/task12.html",
+		"/C/Users/JuliaVx/Desktop/Tasks/groups/begin/tasks/task2.html",
+		"/C/Users/JuliaVx/Desktop/Tasks/tasks/task11.html",
+		"/C/Users/JuliaVx/Desktop/Tasks/tasks/task10.html",
+		"/C/Users/JuliaVx/Desktop/Tasks/tasks/task18.html",
+		"/C/Users/JuliaVx/Desktop/Tasks/tasks/task17.html",
+		"/C/Users/JuliaVx/Desktop/Tasks/tasks/task16.html",
+		"/C/Users/JuliaVx/Desktop/Tasks/tasks/task15.html",
+		"/C/Users/JuliaVx/Desktop/Tasks/tasks/task14.html",
+		"/C/Users/JuliaVx/Desktop/Tasks/tasks/task13.html",
+		"/C/Users/JuliaVx/Desktop/Tasks/tasks/task12.html",
+		"/C/Users/JuliaVx/Desktop/Tasks/tasks/task9.html",
+		"/C/Users/JuliaVx/Desktop/Tasks/groups/begin/begin.html",
+		"/C/Users/JuliaVx/Desktop/Tasks/groups/begin.html",
+		"/C/Users/JuliaVx/Desktop/Tasks/tasks/task7.html",
+		"/C/Users/JuliaVx/Desktop/Tasks/tasks/task3.html",
+		"/C/Users/JuliaVx/Desktop/Tasks/tasks/task4.html",
+		"/C/Users/JuliaVx/Desktop/Tasks/tasks/task5.html",
+		"/C/Users/JuliaVx/Desktop/Tasks/tasks/task6.html",
+		"/C/Users/JuliaVx/Desktop/Tasks/tasks/task8.html",
+		"/C/Users/JuliaVx/Desktop/Tasks/tasks/tasks2.html",
+		"/C/Users/JuliaVx/Desktop/Tasks/tasks/task2",
+		"/C/Users/JuliaVx/Desktop/Tasks/tasks/task1.html",
+		"/C/Users/JuliaVx/Desktop/Tasks/task1.html",
+		"/C/Users/JuliaVx/Desktop/LoveStoty/index.html",
+		"/C/Users/JuliaVx/Desktop/Homework/index.html",
+		"/C/Users/JuliaVx/Desktop/Homework/task1.html",
+		"/C/Users/JuliaVx/Desktop/LoveStoty/JS.js",
+		"/C/Users/JuliaVx/Desktop/LoveStoty/css.css",
+		"/C/Users/JuliaVx/Desktop/LoveStoty/button.html",
+		"/C/Users/JuliaVx/Desktop/SingerWebSite/src/main/resources/templates/index.html",
+		"/C/Users/JuliaVx/Desktop/Blog-master/bb.html",
+		"/C/Users/JuliaVx/Desktop/Blog-master/button.html",
+		"/C/Users/JuliaVx/Desktop/Blog-master/css.css",
+		"/C/Users/JuliaVx/Desktop/Blog-master/index.html",
+		"/C/Users/JuliaVx/Desktop/Blog-master/JS.js",
+		"/C/Users/JuliaVx/Desktop/Blog-master/js.js"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"  ",
+			"=\"\">",
+			"    \n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/JuliaVx/Desktop/Sws3/src/main/resources/static/index.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 172,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "sws3-project.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 211.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
