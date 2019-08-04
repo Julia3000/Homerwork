@@ -10,16 +10,17 @@
 		var candyPrice = prompt('Введите цену шоколадных конфет a');
 		var toffeeMass = prompt('Введите вес "ирисок"');
 		var toffeePrice = prompt('Введите цену "ирисок"');
+		
 		var candyCost = priceCandy / massCandy;
 		var candyCost1 = 'Цена за 1кг шоколадных конфет = ' + costCandy + ' руб.';
 		var toffeeCost = priceToffee / massToffee;
 		var toffeeCost1= 'Цена за 1кг "ирисок" = ' + costToffee + ' руб.';
+		
 		var value = candyCost / toffeeCost;
 		var value1 = 'В ' + value + ' раз' + ' Шоколадные конфеты дороже "ирисок"';
 		var value2 = 'В ' + value + ' раз' + ' Шоколадные конфеты дешевле "ирисок"';
 
-		if (candyCost != toffeeCost) {	
-				
+		if (candyCost != toffeeCost) {					
 			if (candyCost > toffeeCost) {
 				alert(candyCost1 + '\n' + toffeeCost1 + '\n' + value1 + '\n');
 			} 
@@ -30,7 +31,6 @@
 		else{
 			alert('У шоколадных конфет и "ирисок" одинаковая цена = '+ candyCost +  ' руб.' + '\n');	
 		}
-	
 	</script>
 </body>
 </html
