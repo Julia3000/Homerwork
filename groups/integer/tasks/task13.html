@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>task13</title>
+</head>
+<body>
+<h1>Task 13</h1>
+</body>
+	<script>
+		var number = prompt('Введите трехзначное число');
+		if (number > 0) {
+			var leftNumber =  Math.floor(number / 100);
+			var averageNamber = Math.floor(number % 100 / 10);
+			var rightNumber = number % 10;
+			leftNumber = +leftNumber + +rightNumber;
+			rightNumber = +leftNumber - +rightNumber;
+			leftNumber = +leftNumber - +rightNumber;
+			averageNamber = +averageNamber + +leftNumber;
+			leftNumber = +averageNamber - +leftNumber;
+			averageNamber = +averageNamber - +leftNumber;
+			alert(leftNumber + '' + averageNamber + '' + rightNumber + ' - число, после перестановки цифр исхорного числа');
+		}
+		else {
+			alert('Решений нет');
+		}	
+	</script>
+</html
