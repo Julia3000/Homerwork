@@ -10,10 +10,10 @@
 		var number = prompt('Введите трехзначное число');
 		if (number > 0) {
 			var leftNumber =  Math.floor(number / 100);
-			var averageNamber = Math.floor(number % 100 / 10);
+			var averageNumber = Math.floor(number % 100 / 10);
 			var rightNumber = number % 10;
-			var summ = +leftNumber + +averageNamber + +rightNumber;
-			var multiply = leftNumber * averageNamber * rightNumber;
+			var summ = +leftNumber + +averageNumber + +rightNumber;
+			var multiply = leftNumber * averageNumber * rightNumber;
 			alert(summ + ' - сумма трехзначного числа' + '\n' + multiply + ' - произведение трехзначного числа' + '\n');
 		}
 		else {

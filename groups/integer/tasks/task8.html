@@ -11,11 +11,12 @@
 		if (number > 0) {
 			var leftNumber =  Math.floor(number / 10);
 			var rightNumber = number % 10;
-			leftNumber = +leftNumber + +rightNumber;
-			rightNumber = +rightNumber - +leftNumber;
-			rightNumber = -rightNumber;
-			leftNumber = +leftNumber - +rightNumber;
-			alert(leftNumber + '' + rightNumber + ' - число, после перестановки цифр исхорного числа');
+			var reverseNumber = rightNumber*10 + leftNumber;
+			//leftNumber = +leftNumber + +rightNumber;
+			//rightNumber = +rightNumber - +leftNumber;
+			//rightNumber = -rightNumber;
+			//leftNumber = +leftNumber - +rightNumber;
+			alert(reverseNumber + ' - число, после перестановки цифр исхорного числа');
 		}
 		else {
 			alert('Решений нет');

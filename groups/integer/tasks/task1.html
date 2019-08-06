@@ -9,7 +9,8 @@
 	<script>
 		var distance= prompt('Введите расстояние L см');
 		if (distance > 0) {
-			var numberOfFullMeters = Math.floor(distance / 100);
+			//var numberOfFullMeters = Math.floor(distance / 100);
+			var numberOfFullMeters = ~~(distance / 100);
 			alert(numberOfFullMeters + ' - количество полных метров в расстоянии L');
 		}
 		else {
