@@ -12,12 +12,8 @@
 			var leftNumber =  Math.floor(number / 100);
 			var averageNamber = Math.floor(number % 100 / 10);
 			var rightNumber = number % 10;
-			averageNamber = +averageNamber + +rightNumber;
-			rightNumber = +rightNumber - +averageNamber;
-			rightNumber = -rightNumber;
-			averageNamber = +averageNamber - +rightNumber;
-			//TODO переделать по аналогии с 12
-			alert(leftNumber + '' + averageNamber + '' + rightNumber + ' - число, после перестановки цифр исхорного числа');
+			var reverseNumber = leftNumber*100 + (rightNumber * 10) + +averageNamber;
+			alert(reverseNumber + ' - число, после перестановки цифр исхорного числа');
 		}
 		else {
 			alert('Решений нет');

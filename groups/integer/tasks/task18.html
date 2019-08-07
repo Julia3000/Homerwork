@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>task18</title>
+</head>
+<body>
+<h1>Task 18</h1>
+</body>
+	<script>
+		var number = prompt('Введите целое число');
+		if (number > 0 && number > 999) {
+			var numberHundreds = ~~(number % 10000 / 1000); 
+			alert(numberHundreds + ' - цифра, соответствующая разряду сотен этого числа');
+		}
+		else {
+			alert('Решений нет');
+		}	
+	</script>
+</html

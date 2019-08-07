@@ -13,7 +13,6 @@
 		if ( numberA > 0 && numberB > 0) {
 			if (numberA > numberB) {
 				var numberOfSegments =  Math.floor(numberA / numberB);
-				//var freeLength = +numberA - (numberOfSegments * numberB);
 				var freeLength = +numberA % numberB;
 				if (freeLength != 0) {
 					alert(numberOfSegments + ' количество отрезков B, розмещенных на отрезке A' + '\n' + freeLength + ' - длина незанятой части отрезка A' + '\n');
