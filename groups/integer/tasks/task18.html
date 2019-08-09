@@ -8,9 +8,9 @@
 </body>
 	<script>
 		var number = prompt('Введите целое число');
-		if (number > 0 && number > 999) {
-			var numberHundreds = ~~(number % 10000 / 1000); 
-			alert(numberHundreds + ' - цифра, соответствующая разряду сотен этого числа');
+		if (number > 999) {
+			var numberThousends = ~~(number % 10000 / 1000); 
+			alert(numberThousends + ' - цифра, соответствующая разряду тысяч этого числа');
 		}
 		else {
 			alert('Решений нет');
