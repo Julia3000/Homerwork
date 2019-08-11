@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>task23</title>
+</head>
+<body>
+<h1>Task 23</h1>
+</body>
+	<script>
+		const SECONDS_IN_HOUR = 3600;
+		var numberOfSeconds = prompt('Введите  N секунд');
+		if (numberOfSeconds > 0) {
+			numberOfMinutes = ~~(numberOfSeconds / 60);
+			var numberOfFullMinutes = numberOfMinutes % (SECONDS_IN_HOUR);
+			alert(numberOfFullMinutes + ' - количество полных минут, прошедших с начала последнего часа');
+		}
+		else {
+			alert('Решений нет');
+		}	
+	</script>
+</html

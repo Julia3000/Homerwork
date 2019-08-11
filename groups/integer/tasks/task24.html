@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>task24</title>
+</head>
+<body>
+<h1>Task 24</h1>
+</body>
+	<script>
+		var arr = ['воскресенье', 'понедельник', 'вторник', 'среда', 'четверг', 'пятница'];
+		var number = prompt('Введите  число от 1 до 365');
+		if (number >= 1 && number <= 365) {
+			var dayOfWeek = [number % 7];
+			alert(number + ' - ' + arr[dayOfWeek]);
+		}
+		else{
+			alert('Решений нет');
+		}
+	</script>
+</html
