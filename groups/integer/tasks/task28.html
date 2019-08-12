@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>task28</title>
+</head>
+<body>
+<h1>Task 28</h1>
+</body>
+	<script>
+		var arr = ['понедельник', 'вторник', 'среда', 'четверг', 'пятница', 'суббота', 'воскресенье'];
+		var numberDayOfTheYear = prompt('Введите  число от 1 до 365');
+
+		if (numberDayOfTheYear >= 1 && numberDayOfTheYear <= 365) {
+			var numberDayOfTheWeek = prompt('Введите  число от 1 до 7');
+			
+			if (numberDayOfTheWeek >= 1 && numberDayOfTheWeek <= 7) {
+				var dayOfTheWeek = ((numberDayOfTheYear + numberDayOfTheWeek - 2) % 7) + 1;//TODO исправить правильно
+				alert(arr[dayOfTheWeek]);
+			}
+			else {
+				alert('Решений нет');
+			}
+		}
+		else {
+			alert('Решений нет');
+		}
+	</script>
+</html

@@ -10,7 +10,7 @@
 		const SECONDS_IN_HOUR = 3600;
 		var numberOfSeconds = prompt('Введите  N секунд');
 		if (numberOfSeconds > 0) {
-			numberOfMinutes = ~~(numberOfSeconds / 60);
+			numberOfMinutes = ~~(numberOfSeconds / 60);//TODO ошибка
 			var numberOfFullMinutes = numberOfMinutes % (SECONDS_IN_HOUR);
 			alert(numberOfFullMinutes + ' - количество полных минут, прошедших с начала последнего часа');
 		}
