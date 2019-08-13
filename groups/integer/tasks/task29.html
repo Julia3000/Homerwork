@@ -7,12 +7,14 @@
 <h1>Task 29</h1>
 </body>
 	<script>
-		var numberA = prompt('Введите A');
-		var numberB = prompt('Введите B');
-		var numberС = prompt('Введите С');
+		var numberA = Number(prompt('Введите A'));
+		var numberB = Number(prompt('Введите B'));
+		var numberС = Number(prompt('Введите С'));
 
-		if ( numberA > 0 && numberB > 0) {
+		if (numberA > 0 && numberB > 0) {
+			
 			if (numberС > 0) {
+				//TODO переделать правильно все задачи
 				var numberOfSquares =  ~~(numberA / numberС) * ~~(numberB / numberС);
 				if (numberOfSquares != 0) {
 					var freeArea = numberA * numberB % numberOfSquares;
@@ -22,6 +24,8 @@
 					else {
 						alert(numberOfSquares + ' количество квадратов, розмещенных в прямоугольнике' + '\n' + ' площадь прямоугольника полностью занята' + '\n');
 					}
+
+
 				}
 				else {
 					alert('На ноль делить нельзя');		

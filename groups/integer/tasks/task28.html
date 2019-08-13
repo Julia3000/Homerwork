@@ -8,13 +8,13 @@
 </body>
 	<script>
 		var arr = ['понедельник', 'вторник', 'среда', 'четверг', 'пятница', 'суббота', 'воскресенье'];
-		var numberDayOfTheYear = prompt('Введите  число от 1 до 365');
+		var numberDayOfTheYear = Number(prompt('Введите  число от 1 до 365'));
 
 		if (numberDayOfTheYear >= 1 && numberDayOfTheYear <= 365) {
-			var numberDayOfTheWeek = prompt('Введите  число от 1 до 7');
+			var numberDayOfTheWeek = Number(prompt('Введите  число от 1 до 7'));
 			
 			if (numberDayOfTheWeek >= 1 && numberDayOfTheWeek <= 7) {
-				var dayOfTheWeek = (numberDayOfTheYear % 7) + (numberDayOfTheWeek + 5) % 7;
+				var dayOfTheWeek = ((numberDayOfTheYear % 7) + (numberDayOfTheWeek + 5)) % 7;
 				alert(dayOfTheWeek + '\n' + arr[dayOfTheWeek]);
 			}
 			else {
