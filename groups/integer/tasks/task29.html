@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>task29</title>
+</head>
+<body>
+<h1>Task 29</h1>
+</body>
+	<script>
+		var numberA = prompt('Введите A');
+		var numberB = prompt('Введите B');
+		var numberС = prompt('Введите С');
+
+		if ( numberA > 0 && numberB > 0) {
+			if (numberС > 0) {
+				var numberOfSquares =  ~~(numberA / numberС) * ~~(numberB / numberС);
+				if (numberOfSquares != 0) {
+					var freeArea = numberA * numberB % numberOfSquares;
+					if (freeArea != 0) {
+						alert(numberOfSquares + ' количество квадратов, розмещенных в прямоугольнике' + '\n' + freeArea + ' - площадь, незанятой части прямоугольника' + '\n');
+					} 
+					else {
+						alert(numberOfSquares + ' количество квадратов, розмещенных в прямоугольнике' + '\n' + ' площадь прямоугольника полностью занята' + '\n');
+					}
+				}
+				else {
+					alert('На ноль делить нельзя');		
+    			}
+			}	
+		}
+		else {
+			alert('Решений нет');		
+    	}
+	</script>
+</html

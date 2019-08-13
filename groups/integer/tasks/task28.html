@@ -14,8 +14,8 @@
 			var numberDayOfTheWeek = prompt('Введите  число от 1 до 7');
 			
 			if (numberDayOfTheWeek >= 1 && numberDayOfTheWeek <= 7) {
-				var dayOfTheWeek = ((numberDayOfTheYear + numberDayOfTheWeek - 2) % 7) + 1;//TODO исправить правильно
-				alert(arr[dayOfTheWeek]);
+				var dayOfTheWeek = (numberDayOfTheYear % 7) + (numberDayOfTheWeek + 5) % 7;
+				alert(dayOfTheWeek + '\n' + arr[dayOfTheWeek]);
 			}
 			else {
 				alert('Решений нет');
