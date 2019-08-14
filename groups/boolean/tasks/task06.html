@@ -6,11 +6,15 @@
 <body>
 	<h1>Task 6</h1>
 	<script>
-		var numberA = prompt('Введите целое число A');
-		var numberB = prompt('Введите целое число B');
-		var numberC = prompt('Введите целое число C');
-		var doubleInequality = (numberA < numberB) && (numberB < numberC);
-		alert(doubleInequality + '\n' + ' проверка на справедливость двойного неравенства');
+		var numberA = Number(prompt('Введите целое число A'));
+		var numberB = Number(prompt('Введите целое число B'));
+		var numberC = Number(prompt('Введите целое число C'));
+
+		if(numberA < numberB && numberB < numberC){
+			alert(true + " - двойное неравенство верно");
+		} else {
+			alert(false + " - двойное неравенство не верно");
+		}
 	</script>
 </body>
 </html

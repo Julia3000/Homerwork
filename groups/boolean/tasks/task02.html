@@ -7,8 +7,12 @@
 	<h1>Task 2</h1>
 	<script>
 		var number = prompt('Введите число');
-		var oddCheck = number % 2 != 0;
-		alert(oddCheck + '\n' + ' проверка на нечетность числа');
+
+		if(number % 2 != 0){
+			alert(number + " - нечетное число");
+		} else {
+			alert(number + " - четное число");
+		}
 	</script>
 </body>
 </html

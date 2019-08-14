@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>task30</title>
+</head>
+<body>
+<h1>Task 30</h1>
+</body>
+	<script>
+		var number = Number(prompt('Введите любой год'));
+		if (number > 0) {
+			var startDate= Math.floor(number / 100);
+			var endOfNumber = number % 100;
+			if (endOfNumber > 0) {
+				var century = startDate + 1;
+				alert(century + ' век');
+			}
+			else {
+				alert(startDate + ' век');
+			}	
+		}
+		else {
+			alert('Решений нет');
+		}	
+	</script>
+</html

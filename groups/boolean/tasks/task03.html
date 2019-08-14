@@ -7,8 +7,12 @@
 	<h1>Task 3</h1>
 	<script>
 		var number = prompt('Введите число');
-		var parityСheck = number % 2 == 0;
-		alert(parityСheck + '\n' + ' проверка на четность числа');
+		
+		if(number % 2 == 0){
+			alert(number + " - четное число");
+		} else {
+			alert(number + " - нечетное число");
+		}
 	</script>
 </body>
 </html

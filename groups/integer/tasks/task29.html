@@ -12,20 +12,16 @@
 		var numberС = Number(prompt('Введите С'));
 
 		if (numberA > 0 && numberB > 0) {
-			
 			if (numberС > 0) {
-				//TODO переделать правильно все задачи
 				var numberOfSquares =  ~~(numberA / numberС) * ~~(numberB / numberС);
 				if (numberOfSquares != 0) {
-					var freeArea = numberA * numberB % numberOfSquares;
+					var freeArea = numberA * numberB - numberOfSquares * numberС ** 2;
 					if (freeArea != 0) {
 						alert(numberOfSquares + ' количество квадратов, розмещенных в прямоугольнике' + '\n' + freeArea + ' - площадь, незанятой части прямоугольника' + '\n');
 					} 
 					else {
 						alert(numberOfSquares + ' количество квадратов, розмещенных в прямоугольнике' + '\n' + ' площадь прямоугольника полностью занята' + '\n');
 					}
-
-
 				}
 				else {
 					alert('На ноль делить нельзя');		
