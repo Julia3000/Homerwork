@@ -10,14 +10,13 @@
 		var number = Number(prompt('Введите любой год'));
 		if (number > 0) {
 			var startDate= Math.floor(number / 100);
-			var endOfNumber = number % 100;
-			if (endOfNumber > 0) {
-				var century = startDate + 1;
-				alert(century + ' век');
-			}
-			else {
-				alert(startDate + ' век');
-			}	
+			//var endOfNumber = number % 100;
+			
+			//var century = startDate;
+			//if (endOfNumber > 0) century++;
+			//alert(century + ' век');
+			alert((number % 100 > 0 ? ++startDate : startDate) + ' век');
+
 		}
 		else {
 			alert('Решений нет');
