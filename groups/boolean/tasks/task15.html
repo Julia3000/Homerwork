@@ -10,7 +10,9 @@
 		var numberB = Number(prompt('Введите число B'));
 		var numberC = Number(prompt('Введите число C'));
 	
-		if ((numberA > 0  && numberB > 0  && numberC < 0)||(numberA > 0  && numberB < 0  && numberC > 0)||(numberA < 0  && numberB > 0  && numberC > 0)){
+		if ((numberA > 0  && numberB > 0  && numberC < 0) ||
+			(numberA > 0  && numberB < 0  && numberC > 0) ||
+			(numberA < 0  && numberB > 0  && numberC > 0)){
 			alert("Высказывание истинно");
 		} else {
 			alert("Высказывание ложно");

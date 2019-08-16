@@ -10,12 +10,10 @@
 		var number = Number(prompt('Введите четырехзначное число'));
 		if (number > 0) {
 			var firstNumber =  ~~(number / 1000);
-			var secondNamber = ~~(number % 1000 / 100);
+			var secondNumber = ~~(number % 1000 / 100);
 			var thirdNumber = ~~(number % 100 / 10);
 			var fourthNumber = number % 10;
-			if ((firstNumber == fourthNumber) && (secondNamber == thirdNumber) ||
-			 (firstNumber == secondNamber) && (secondNamber == thirdNumber) && (thirdNumber == fourthNumber) && 
-			 (firstNumber == fourthNumber)) {
+			if(firstNumber == fourthNumber && secondNumber == thirdNumber) {
 				alert("Высказывание истинно");
 			} else {
 			alert("Высказывание ложно");
