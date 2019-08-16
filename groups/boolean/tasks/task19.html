@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>task14</title>
+	<title>task18</title>
 </head>
 <body>
-	<h1>Task 14</h1>
+	<h1>Task 18</h1>
 	<script>
 		var numberA = Number(prompt('Введите число A'));
 		var numberB = Number(prompt('Введите число B'));
 		var numberC = Number(prompt('Введите число C'));
 	
-		if ((numberA > 0  && numberB < 0  && numberC < 0)||(numberA < 0  && numberB > 0  && numberC < 0)||(numberA < 0  && numberB < 0  && numberC > 0)){
+		if ((numberA != numberB)||(numberA != numberC)||(numberB != numberC)){
 			alert("Высказывание истинно");
 		} else {
 			alert("Высказывание ложно");

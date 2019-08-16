@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>task23</title>
+</head>
+<body>
+<h1>Task 23</h1>
+</body>
+	<script>
+		var number = Number(prompt('Введите четырехзначное число'));
+		if (number > 0) {
+			var firstNumber =  ~~(number / 1000);
+			var secondNamber = ~~(number % 1000 / 100);
+			var thirdNumber = ~~(number % 100 / 10);
+			var fourthNumber = number % 10;
+			if ((firstNumber == fourthNumber) && (secondNamber == thirdNumber) ||
+			 (firstNumber == secondNamber) && (secondNamber == thirdNumber) && (thirdNumber == fourthNumber) && 
+			 (firstNumber == fourthNumber)) {
+				alert("Высказывание истинно");
+			} else {
+			alert("Высказывание ложно");
+			}
+		}
+		else {
+			alert('Решений нет');
+		}	
+	</script>
+</html

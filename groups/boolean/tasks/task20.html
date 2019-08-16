@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>task20</title>
+</head>
+<body>
+<h1>Task 20</h1>
+</body>
+	<script>
+		var number = Number(prompt('Введите трехзначное число'));
+		if (number > 0) {
+			var leftNumber =  ~~(number / 100);
+			var averageNamber = ~~(number % 100 / 10);
+			var rightNumber = number % 10;
+			if ((leftNumber != averageNamber) && (leftNumber != rightNumber) && (averageNamber !=rightNumber)) {
+				alert("Высказывание истинно");
+			} else {
+			alert("Высказывание ложно");
+			}
+		}
+		else {
+			alert('Решений нет');
+		}	
+	</script>
+</html
