@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>task24</title>
+</head>
+<body>
+	<h1>Task 24</h1>
+	<script>
+		var numberA = Number(prompt('Введите значение A'));
+		var numberB = Number(prompt('Введите значение B'));
+		var numberC = Number(prompt('Введите значение C'));
+
+		if (numberA != 0) {
+			var discriminant = numberB ** 2 - 4 * numberA * numberC;
+			if (discriminant == 0) {
+				alert("Высказывание истинно");
+			} else {
+				alert("Высказывание ложно");
+			}		
+		} 
+		else {
+			alert('Корней нет');
+		}
+		
+	</script>
+</body>
+</html
