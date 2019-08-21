@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>task38</title>
+</head>
+<body>
+<h1>Task 38</h1>
+</body>
+	<script>
+		var numberX = prompt('Введите  число от 1 до 8');
+		var numberY = prompt('Введите  число от 1 до 8');
+		var numberX1 = prompt('Введите  число от 1 до 8');
+		var numberY1 = prompt('Введите  число от 1 до 8');
+
+
+		if (((numberX >= 1 && numberY >= 1) && (numberX1 >= 1 && numberY1 >= 1)) && 
+			((numberX <= 8 && numberY <= 8) && (numberX1 <= 8 && numberY1 <= 8))) {
+			if ((Math.abs(numberX - numberX1)) == (Math.abs(numberY - numberY1))) {
+
+				alert('Высказывание истинно');
+			} else {
+				alert('Высказывание ложно');
+			}
+		} else {
+			alert('Решение не возможно');
+		}
+	</script>
+</html
