@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>task04</title>
+</head>
+<body>
+<h1>Task 04</h1>
+</body>
+	<script>
+		var firstNumber = Number(prompt('Введите любое число'));
+		var secondNumber = Number(prompt('Введите любое число'));
+		var thirdNumber = Number(prompt('Введите любое число'));
+
+		if ((firstNumber > 0) && (secondNumber < 0) && (thirdNumber < 0) ||
+			(firstNumber < 0) && (secondNumber < 0) && (thirdNumber > 0) ||
+			(firstNumber < 0) && (secondNumber < 0) && (thirdNumber > 0)) { 
+			alert('Одно положительное число');
+		}
+		if ((firstNumber > 0) && (secondNumber > 0) && (thirdNumber < 0) ||
+			(firstNumber < 0) && (secondNumber > 0) && (thirdNumber > 0) ||
+			(firstNumber > 0) && (secondNumber < 0) && (thirdNumber > 0)) {
+			alert('Два положительных числа');
+		}
+		if ((firstNumber > 0) && (secondNumber > 0) && (thirdNumber > 0)) {
+			alert('Все числа положительные');
+		}	
+	</script>
+</html
