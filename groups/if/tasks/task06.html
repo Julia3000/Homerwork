@@ -7,9 +7,12 @@
 <h1>Task 06</h1>
 </body>
 	<script>
+		//Не вижу 5ой задачи
+		//Она решается аналогично четвертой
 		var firstNumber = Number(prompt('Введите любое число'));
 		var secondNumber = Number(prompt('Введите любое число'));
 
+		//Не очень решение
 		if (firstNumber > secondNumber) { 
 			alert(firstNumber + ' - первое число больше второго');
 		}
@@ -19,5 +22,7 @@
 		if (firstNumber == secondNumber) {
 			alert('Выражение ложно');
 		}
+		//Как надо
+		alert("Наибольшее число: " + firstNumber>secondNumber ? firstNumber : secondNumber)
 	</script>
 </html

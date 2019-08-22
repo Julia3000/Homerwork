@@ -11,6 +11,8 @@
 		var secondNumber = Number(prompt('Введите любое число'));
 		var thirdNumber = Number(prompt('Введите любое число'));
 
+
+		//Плохо написано
 		if ((firstNumber > 0) && (secondNumber < 0) && (thirdNumber < 0) ||
 			(firstNumber < 0) && (secondNumber < 0) && (thirdNumber > 0) ||
 			(firstNumber < 0) && (secondNumber < 0) && (thirdNumber > 0)) { 
@@ -24,5 +26,12 @@
 		if ((firstNumber > 0) && (secondNumber > 0) && (thirdNumber > 0)) {
 			alert('Все числа положительные');
 		}	
+
+		//Так было бы лучше
+		var n = 0;
+		if (firstNumber > 0) n++;
+		if (secondNumber > 0) n++;
+		if (thirdNumber > 0) n++;
+		alert(n + "положительных чисел");
 	</script>
 </html

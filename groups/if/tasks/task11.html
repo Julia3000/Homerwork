@@ -7,10 +7,12 @@
 <h1>Task 11</h1>
 </body>
 	<script>
-		var firstNumber = Number(prompt('Введите любое число'));
+		var firstNumber = Number(prompt('Введите любое число'));//Переобозвать
 		var secondNumber = Number(prompt('Введите любое число'));
 
 		if ((firstNumber != secondNumber)) {
+
+			//Слишком много написано, можно на много проще
 			if ((firstNumber > secondNumber)) {
 				secondNumber = firstNumber;
 				alert(firstNumber + '\n' + secondNumber);
@@ -19,12 +21,18 @@
 				firstNumber = secondNumber;
 				alert(firstNumber + '\n' + secondNumber);
 			}
-
+			//Вот так
+			firstNumber = firstNumber > secondNumber ? firstNumber : secondNumber;
+			secondNumber = firstNumber;
+			alert(firstNumber + '\n' + secondNumber);
 		} else {
+			//А тут вообще без всего этого можно было бы обойтись с
 			firstNumber = 0;
 			secondNumber = 0;
-			secondNumber = firstNumber
+			secondNumber = firstNumber // это вообще не понятно зачем
 			alert(firstNumber + '\n' + secondNumber);
+			//Вот так 
+			alert('0\n0' );
 		}
 	</script>
 </html
