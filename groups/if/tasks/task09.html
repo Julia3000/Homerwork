@@ -7,18 +7,19 @@
 <h1>Task 09</h1>
 </body>
 	<script>
-		var firstNumber = Number(prompt('Введите любое число'));//Переобозвать переменные как в задаче A, B
-		var secondNumber = Number(prompt('Введите любое число'));
+		var valueA = Number(prompt('Введите любое число'));
+		var valueB = Number(prompt('Введите любое число'));
 
-		if ((firstNumber > secondNumber)) {
-			firstNumber = firstNumber + secondNumber;
-			secondNumber = firstNumber - secondNumber;
-			firstNumber = firstNumber - secondNumber;
-			alert(firstNumber + '\n' + secondNumber);//Не правильно!
-			//Переделать
-			//Ты не выводишь значение когда B>A
+		if (valueA > valueB) {
+			valueA = valueA + valueB;
+			valueB = valueA - valueB;
+			valueA = valueA - valueB;
+			alert(valueA + '\n' + valueB);
+		}
+		if (valueB > valueA) {
+		alert(valueA + '\n' + valueB);
 		} else {
-			alert("Высказывание ложно") // Тут тебя не просят проверять высказывания, нужно вывести информацию пользователю: что не так?
+		alert('вывести значения невозможно');
 		}
 	</script>
 </html

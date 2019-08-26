@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>task14</title>
+</head>
+<body>
+<h1>Task 14</h1>
+</body>
+	<script>
+		var firstNumber = Number(prompt('Введите любое число'));
+		var secondNumber = Number(prompt('Введите любое число'));
+		var thirdNumber = Number(prompt('Введите любое число'));
+
+		alert((firstNumber>secondNumber>thirdNumber) || 
+			(secondNumber>firstNumber>thirdNumber) ||
+			(thirdNumber>secondNumber>firstNumber) ||
+			(firstNumber<secondNumber<thirdNumber) || 
+			(secondNumber<firstNumber<thirdNumber) ||
+			(thirdNumber<secondNumber<firstNumber) 
+			 ? (firstNumber + '\n' + thirdNumber) || (firstNumber+ '\n' + secondNumber): (secondNumber+ '\n' + thirdNumber));
+		
+	</script>
+</html

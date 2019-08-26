@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>task06</title>
+	<title>task12</title>
 </head>
 <body>
-	<h1>Task 06</h1>
+	<h1>Task 12</h1>
 	<script>
 		var firstNumber = Number(prompt('Введите любое число'));
 		var secondNumber = Number(prompt('Введите любое число'));
-		alert("Наибольшее число: " + firstNumber>secondNumber ? firstNumber : secondNumber);
+		var thirdNumber = Number(prompt('Введите любое число'));
+
+		alert(firstNumber<secondNumber || secondNumber < thirdNumber ? firstNumber || secondNumber : thirdNumber);
 	</script>
 </body>
 </html

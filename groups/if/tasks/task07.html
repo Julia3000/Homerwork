@@ -4,21 +4,12 @@
 	<title>task07</title>
 </head>
 <body>
-<h1>Task 07</h1>
-</body>
+	<h1>Task 07</h1>
 	<script>
 		var firstNumber = Number(prompt('Введите любое число'));
 		var secondNumber = Number(prompt('Введите любое число'));
 
-		if (firstNumber < secondNumber) { 
-			alert('Первое число меньше второго');
-		}
-		if (secondNumber < firstNumber) {
-			alert('Второе число меньше первого');
-		}
-		if (firstNumber == secondNumber) {
-			alert('Выражение ложно');
-		}
-		//Плохое решение - сделать аналогично задаче № 6
+		alert("Наменьшее число: " + firstNumber<secondNumber ? firstNumber : secondNumber);
 	</script>
+</body>
 </html

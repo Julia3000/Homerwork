@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>task13</title>
+</head>
+<body>
+	<h1>Task 13</h1>
+	<script>
+		var firstNumber = Number(prompt('Введите любое число'));
+		var secondNumber = Number(prompt('Введите любое число'));
+		var thirdNumber = Number(prompt('Введите любое число'));
+
+		if ((firstNumber<thirdNumber && thirdNumber <secondNumber) || (secondNumber<thirdNumber && thirdNumber <firstNumber)) {
+			alert('Третье число среднее ' + thirdNumber);
+		}
+		if ((secondNumber<firstNumber && firstNumber<thirdNumber) || (thirdNumber<firstNumber && firstNumber<secondNumber)) {
+			alert('Первое число среднее ' + firstNumber);
+		}
+		if ((thirdNumber<secondNumber && secondNumber<firstNumber ) || (firstNumber<secondNumber && secondNumber<thirdNumber)) {
+		alert('Второе число среднее ' + secondNumber);	
+		}
+	</script>
+</body>
+</html
